@@ -1,5 +1,5 @@
 # code your #valid_move? method here
-def valid_move?(board, index)
+def valid_move?(board, position)
   if position_taken?(board, position.to_i-1)
     return false
   elsif position.to_i > 9
